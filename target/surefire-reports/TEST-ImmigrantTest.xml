@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ImmigrantTest" time="0.017" tests="6" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ImmigrantTest" time="0.015" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/surefire/surefirebooter11677427245156326160.jar /Users/duyle/Desktop/2023_Fall/CS321/321Project/target/surefire 2023-11-29T13-56-56_794-jvmRun1 surefire17130092439766869995tmp surefire_01009060359750989962tmp"/>
+    <property name="sun.java.command" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/surefire/surefirebooter10441610992030703418.jar /Users/duyle/Desktop/2023_Fall/CS321/321Project/target/surefire 2023-11-29T13-58-51_228-jvmRun1 surefire1070994953545819509tmp surefire_08879803026201791073tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/test-classes:/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/classes:/Users/duyle/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/duyle/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1-mac-aarch64.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/surefire/surefirebooter11677427245156326160.jar"/>
+    <property name="surefire.real.class.path" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/surefire/surefirebooter10441610992030703418.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.1"/>
@@ -62,10 +62,6 @@
   <testcase name="testCreateImmigrant" classname="ImmigrantTest" time="0"/>
   <testcase name="testCreateImmigrant1" classname="ImmigrantTest" time="0"/>
   <testcase name="testSetStatus" classname="ImmigrantTest" time="0"/>
-  <testcase name="testEquals" classname="ImmigrantTest" time="0.002">
-    <error message="Cannot invoke &quot;String.equals(Object)&quot; because &quot;this.firstName&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "this.firstName" is null
-	at ImmigrantTest.testEquals(ImmigrantTest.java:142)
-</error>
-  </testcase>
+  <testcase name="testEquals" classname="ImmigrantTest" time="0"/>
   <testcase name="testValidateInfo" classname="ImmigrantTest" time="0"/>
 </testsuite>
