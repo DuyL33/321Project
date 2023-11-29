@@ -115,18 +115,38 @@ public class ImmigrantTest {
     }
 
 	@Test
-	public void testEquals()
-	{
-		Immigrant immigrant4 = new Immigrant("John", "Doe", "123456");
-		assertTrue(immigrant4.equals(new Immigrant("John", "Doe", "123456")));
+	public void testEquals() {
+    // Test equality with the same immigrant
+    Immigrant immigrant4 = new Immigrant("John", "Doe", "123456");
+    assertTrue(immigrant4.equals(new Immigrant("John", "Doe", "123456")));
 
-        //add NOV 25 DL
-        //Test two different immigrant.
-		assertFalse(immigrant4.equals(new Immigrant("Bob", "Doe", "123456")));
+    // Test inequality with different last name
+    assertFalse(immigrant4.equals(new Immigrant("John", "Smith", "123456")));
 
-        assertFalse(immigrant4.equals(new Immigrant("John", "Joe", "123456")));
+    // Test inequality with different first name
+    assertFalse(immigrant4.equals(new Immigrant("Bob", "Doe", "123456")));
 
-        assertFalse(immigrant4.equals(new Immigrant("John", "Doe", "123457")));
-	}
+    // Test inequality with different passport number
+    assertFalse(immigrant4.equals(new Immigrant("John", "Doe", "789012")));
+
+    // Test inequality with null values
+    assertFalse(immigrant4.equals(new Immigrant(null, "Doe", "123456")));
+    assertFalse(immigrant4.equals(new Immigrant("John", null, "123456")));
+    assertFalse(immigrant4.equals(new Immigrant("John", "Doe", null)));
+    
+    // Test inequality with different types
+    assertFalse(immigrant4.equals("John Doe 123456"));
+
+    // Test equality with another immigrant having null values
+    Immigrant immigrantWithNull = new Immigrant(null, null, null);
+    assertTrue(immigrantWithNull.equals(new Immigrant(null, null, null)));
+
+    // Test inequality with one immigrant having null values
+    assertFalse(immigrantWithNull.equals(new Immigrant("John", "Doe", "123456")));
+
+    // Test inequality with null values in both immigrants
+    assertFalse(immigrantWithNull.equals(null));
+}
+
 
 }
