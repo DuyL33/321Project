@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/duyle/Desktop/2023_Fall/CS321/Maven-and-Java/target/test-classes:/Users/duyle/Desktop/2023_Fall/CS321/Maven-and-Java/target/classes:/Users/duyle/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/duyle/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1-mac-aarch64.jar:"/>
+    <property name="java.class.path" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/test-classes:/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/classes:/Users/duyle/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/duyle/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1-mac-aarch64.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/duyle/Desktop/2023_Fall/CS321/Maven-and-Java/target/surefire/surefirebooter9016087102347542814.jar /Users/duyle/Desktop/2023_Fall/CS321/Maven-and-Java/target/surefire 2023-11-25T20-50-29_106-jvmRun1 surefire4524894527077399406tmp surefire_04587646761492374972tmp"/>
+    <property name="sun.java.command" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/surefire/surefirebooter4920933039162609344.jar /Users/duyle/Desktop/2023_Fall/CS321/321Project/target/surefire 2023-11-29T13-48-47_253-jvmRun1 surefire9526031239571176531tmp surefire_07490029306672426806tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/duyle/Desktop/2023_Fall/CS321/Maven-and-Java/target/test-classes:/Users/duyle/Desktop/2023_Fall/CS321/Maven-and-Java/target/classes:/Users/duyle/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/duyle/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1-mac-aarch64.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/test-classes:/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/classes:/Users/duyle/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/duyle/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1-mac-aarch64.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1.jar:/Users/duyle/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1-mac-aarch64.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/duyle"/>
     <property name="user.language" value="en"/>
@@ -23,20 +23,20 @@
     <property name="java.version.date" value="2023-10-17"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/duyle/Desktop/2023_Fall/CS321/Maven-and-Java"/>
+    <property name="basedir" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/duyle/Desktop/2023_Fall/CS321/Maven-and-Java/target/surefire/surefirebooter9016087102347542814.jar"/>
+    <property name="surefire.real.class.path" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project/target/surefire/surefirebooter4920933039162609344.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.1"/>
     <property name="user.name" value="duyle"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="14.0"/>
+    <property name="os.version" value="14.1.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/zk/890fmfz10xzf1kvkgt4vxqgh0000gn/T/"/>
     <property name="java.version" value="21.0.1"/>
-    <property name="user.dir" value="/Users/duyle/Desktop/2023_Fall/CS321/Maven-and-Java"/>
+    <property name="user.dir" value="/Users/duyle/Desktop/2023_Fall/CS321/321Project"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -60,10 +60,10 @@
   </properties>
   <testcase name="removeFirst1" classname="WorkflowTableTest" time="0"/>
   <testcase name="removeFirst2" classname="WorkflowTableTest" time="0"/>
-  <testcase name="removeFirst4" classname="WorkflowTableTest" time="0"/>
+  <testcase name="removeFirst3" classname="WorkflowTableTest" time="0"/>
   <testcase name="getFirst1" classname="WorkflowTableTest" time="0"/>
   <testcase name="getFirst2" classname="WorkflowTableTest" time="0"/>
-  <testcase name="getFirst4" classname="WorkflowTableTest" time="0"/>
+  <testcase name="getFirst3" classname="WorkflowTableTest" time="0"/>
   <testcase name="setNext1" classname="WorkflowTableTest" time="0"/>
   <testcase name="setNext2" classname="WorkflowTableTest" time="0"/>
 </testsuite>
